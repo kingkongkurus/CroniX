@@ -4,18 +4,18 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def home
-    
+    @title="Home"
   end
   
   def teams
-    
+    @title="Teams"
   end
   
   def guest
-    
+    @title="Guest"
   end
   
   def gallery
-    
+    @title="Gallery"
   end
 end
