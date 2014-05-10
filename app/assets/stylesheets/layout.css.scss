@@ -146,7 +146,7 @@ header {	/*css codes for the header and title part*/
 	padding:5px;
 	font-size:25px;
 	position:fixed;
-	right:2%;
+	right:0;
 	bottom:6%;
 	text-align:right;
 	border:3px solid grey;
@@ -171,7 +171,18 @@ height:30px;
 color:white;
 letter-spacing:2px;
 		#footer_content{
+			position:absolute;
 			line-height:30px;
+		}
+		#feed{
+		font-size:20px;
+		position:absolute;
+		padding-right:40px;
+		padding-left:120px;
+		border-left:2px solid white;
+		right:0;
+		line-height:30px;
+		color:white;
 		}
 bottom:0;
 }
