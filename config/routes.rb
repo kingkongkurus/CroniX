@@ -1,9 +1,9 @@
 CAX::Application.routes.draw do
   root 'application#home'
   
-  get 'teams' => 'application#teams'
-  get 'guest' => 'application#guest'
-  get 'gallery' => 'application#gallery'
+  get 'china' => 'application#china'
+  get 'korea' => 'application#korea'
+  get 'japan' => 'application#japan'
       
   
   

@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   end
   
   def teams
-    @title="Teams"
+    @title="Team"
   end
   
   def guest
