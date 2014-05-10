@@ -85,22 +85,28 @@ header {	/*css codes for the header and title part*/
 .main_body{
 	height:auto;
 	padding:0 10%;
-	border:2px solid red;
+	/*border:2px solid red;*/
+	
+	
 			#description{
 						padding-bottom:5%;
 						padding-left:2%;
 						font-size:18px;
-						height:quto;
+						height:auto;
 						text-align:left;
 						width:900px;
-						border:1px solid black;
+						border:2px dashed black;
+						font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+						
+							-webkit-box-shadow: 1px 2px 1px 1px lightblue;
+							box-shadow: 1px 2px 1px 1px lightblue;
+						
 							#title{		/*Css codes for the Title in content page,China,kOREA,jAPAN*/
 								color:#615499;
 								text-align:center;
 								font-size:35px;
 								font-family:'Lato',sans-serif;
 								padding-bottom:30px;
-
 						}
 						}
 						#sample_photo{
@@ -157,16 +163,21 @@ header {	/*css codes for the header and title part*/
 }
 
 .footer{	/*Css codes for the footer part*/
-position: fixed;
-text-align:right;
-background:silver;
+/*text-align:left;
+background-repeat: no-repeat;*/
+
+background: #34495e;
 width:100%;
 height:30px;
+padding:0 5%;
+color:white;
+letter-spacing:2px;
 		#footer_content{
 			line-height:30px;
 		}
 bottom:0;
 }
+
 
 
 /* slider css */
@@ -343,16 +354,20 @@ input[type=radio]#button-3:checked~.arrows#arrow-2 { left: -37px }
  
 input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
  
-.description {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 260px;
+#remark {
+		width:100%;
+    text-align:center;
+		padding:10% 0;
     font-family: 'Yanone Kaffeesatz';
-    z-index: 1000;
+		letter-spacing:3px;
+		font-size:60px;
+		font-weight:400;
+		color:silver;
+		text-shadow:4px 4px 4px lightblue;
+		
 }
- 
-.description input { visibility: hidden }
+ /*CSS codes commented*/
+/* .description input { visibility: hidden }
  
 .description label {
     font-family: 'WebSymbolsRegular';
@@ -374,7 +389,7 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
     transition: opacity .2s;
     z-index: 5;
     color: rgb(20,20,20);
-}
+}*/ 
  
 #slideshow-inner>ul>li:hover .description label { opacity: 1 }
  
@@ -406,8 +421,6 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 /* home description css */
 
 #description{
-
-border: 1px solid red;
 }
 
 /* inside description*/

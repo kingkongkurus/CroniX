@@ -42,3 +42,11 @@ $(document).ready(function() {
   	$("#pop_up").fadeOut();
 	});
 });
+
+$(document).ready(function() {
+  $("#group_name").on("click", function() {
+	$('#group').slideToggle('slow')
+  });
+});
+
+
