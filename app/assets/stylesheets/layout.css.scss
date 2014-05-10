@@ -93,7 +93,7 @@ header {	/*css codes for the header and title part*/
 						}
 						#sample_photo{
 							position:absolute;
-							background-image:url('/assets/beijing_1.jpg');
+							background-image:url('/assets/beijing_1.jpg');		/* Remove later */
 							height:180px;
 							width:180px;
 							background-size:cover;
@@ -114,8 +114,13 @@ header {	/*css codes for the header and title part*/
 														li{
 														position:relative;
 														display:inline-block;
-														border:1px solid blue;
-														padding:0 100px;
+														border:1px dashed #000;
+														border-radius: 20px;
+														padding:0 150px;
+														
+														-webkit-box-shadow: undefinedpx undefinedpx undefinedpx undefinedpx rgba(0,0,0,0.3);
+														box-shadow: undefinedpx undefinedpx undefinedpx undefinedpx rgba(0,0,0,0.3);
+														
 															}	
 															li:hover{
 																cursor:pointer;
@@ -129,7 +134,7 @@ header {	/*css codes for the header and title part*/
 	padding:5px;
 	font-size:25px;
 	right:2%;
-	bottom:8%;
+	bottom:6%;
 	position:fixed;
 	border:2px solid silver;
 	border-radius:25px;;
@@ -148,7 +153,7 @@ position: fixed;
 text-align:right;
 background:silver;
 width:100%;
-height:40px;
+height:30px;
 		#footer_content{
 			line-height:40px;
 		}
@@ -392,4 +397,114 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 	
 }
 
+#list_photos{		/*css codes for the photo that will slide down*/
+		display:none;
+			#place_photo{
+				padding:0;
+				display:inline-block;
+				border: none;
+				padding:0 15px;
+				
+		
+		}
+	
+}
+
 .description input[type=checkbox]:checked~.description-text { opacity: 1 }
+
+/* photo button */
+
+#photos{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:36px;
+	line-height:36px;
+	width:116px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 2px 0px #ffffff;
+}
+#photos:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+#photos:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* foods button */
+
+#foods{
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:36px;
+	line-height:36px;
+	width:116px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 2px 0px #ffffff;
+}
+#foods:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}
+#foods:active {
+	position:relative;
+	top:1px;
+}

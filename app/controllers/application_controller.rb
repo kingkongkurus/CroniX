@@ -8,14 +8,14 @@ class ApplicationController < ActionController::Base
   end
   
   def teams
-    @title="Team"
+    @title="China"
   end
   
   def guest
-    @title="Guest"
+    @title="Korea"
   end
   
   def gallery
-    @title="Gallery"
+    @title="Japan"
   end
 end
