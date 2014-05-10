@@ -3,12 +3,7 @@
 	<head>
   		<title>TravelleX | <%= @title %></title>
 
-<!-- start test map
-			<link rel="stylesheet" href="jquery-jvectormap-1.0.css" type="text/css" media="screen"/>
-			  <script src="jquery.js"></script>
-			  <script src="jquery-jvectormap-1.0.min.js"></script>
-			  <script src="jquery-jvectormap-world-mill-en.js"></script>
-end test map -->
+
 
   		<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   	<link href='http://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
@@ -16,16 +11,12 @@ end test map -->
   		<%= csrf_meta_tags %>
 	</head>
 	<body>
-		<header>
-			<!-- start header -->
+		<header>	<!--Start of header-->
 			<div class="header-image">
 				<h1>TravelleX</h1>
 				<h2>THE WORLD IS BEYOND A CLICK !!</h2>	<!--The title for the webpage-->
 			</div>
-			
-			
-			<!-- start navbar -->
-			<nav>
+			<nav>	<!--start of navbar-->
 				<ul>
 					<li>
 						<a href="/">Home</a>
@@ -43,10 +34,9 @@ end test map -->
 						<a href="/japan">Japan</a>
 					</li>
 				</ul>
-			</nav>
-			<!-- end navbar -->
-		</header>
-			<!-- end header -->
+			</nav> <!--End of navbar-->
+		</header> <!--end of header-->
+			
 	 <div class= "main">
 		<div class= "content">
 			<%= yield %>
@@ -55,7 +45,7 @@ end test map -->
 			
 		
 	
-	<div class= "footer">
+	<div class= "footer"> <!--Footer-->
 
 	<p id="footer_content">Developed By : Kelvin , Faizal , Izzy</p>	<!--Footer to show developer-->
 

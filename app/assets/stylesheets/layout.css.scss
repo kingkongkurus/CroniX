@@ -1,3 +1,5 @@
+
+
 header {	/*css codes for the header and title part*/
 	height: 300px;
 	width: 100%;
@@ -19,7 +21,7 @@ header {	/*css codes for the header and title part*/
 		}
 		h2{
 			font-size:35px;
-			ine-height:0px;
+			line-height:0px;
 			text-align:center;
 			color:#ecf0f1;
 			text-shadow:5px 5px 5px #000;
@@ -90,7 +92,6 @@ header {	/*css codes for the header and title part*/
 		padding-bottom:5%;
 		padding-left:2%;
 		font-size:18px;
-		height:auto;
 		text-align:left;
 		width:900px;
 		border:2px dashed black;
@@ -120,7 +121,7 @@ header {	/*css codes for the header and title part*/
 			ul{
 				line-style-type:none;
 				text-align:center;
-				ine-height:30px;
+				line-height:30px;
 				padding-top:15px;
 	
 				li{
@@ -144,11 +145,12 @@ header {	/*css codes for the header and title part*/
 #booking{	/*css codes for the booking button*/
 	padding:5px;
 	font-size:25px;
+	position:fixed;
 	right:2%;
 	bottom:6%;
-	position:fixed;
+	text-align:right;
 	border:3px solid grey;
-	border-radius:25px;;
+	border-radius:25px;
 		a{
 			text-decoration:none;
 			color:black;
@@ -166,7 +168,6 @@ background-repeat: no-repeat;*/
 background: #34495e;
 width:100%;
 height:30px;
-padding:0 5%;
 color:white;
 letter-spacing:2px;
 		#footer_content{
@@ -449,28 +450,5 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 	
 }
 
-.lower table tr td{
-	
-	width: 324px;
-}
 
-.lower table tr .special{
-	border-left: 2px solid grey;
-}
-
-.lower table tr td h2{
-	text-transform: uppercase;
-	font-family: Helvetica;
-	font-size: 30px;
-	letter-spacing: 1px;
-}
-
-.lower table tr td p{
-	font-family: Helvetica;
-	font-size: 15px;
-	color: grey;
-	margin-top: -5px;
-	direction: ltr;
-	
-}
 
