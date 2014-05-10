@@ -3,12 +3,12 @@
 	<head>
   		<title>TravelleX | <%= @title %></title>
 
-<!-- start test map -->
+<!-- start test map
 			<link rel="stylesheet" href="jquery-jvectormap-1.0.css" type="text/css" media="screen"/>
 			  <script src="jquery.js"></script>
 			  <script src="jquery-jvectormap-1.0.min.js"></script>
 			  <script src="jquery-jvectormap-world-mill-en.js"></script>
-<!-- end test map -->
+end test map -->
 
   		<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   	<link href='http://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
@@ -17,10 +17,14 @@
 	</head>
 	<body>
 		<header>
+			<!-- start header -->
 			<div class="header-image">
 				<h1>TravelleX</h1>
 				<h2>THE WORLD IS BEYOND A CLICK !!</h2>	<!--The title for the webpage-->
 			</div>
+			
+			
+			<!-- start navbar -->
 			<nav>
 				<ul>
 					<li>
@@ -40,8 +44,9 @@
 					</li>
 				</ul>
 			</nav>
+			<!-- end navbar -->
 		</header>
-			
+			<!-- end header -->
 	 <div class= "main">
 		<div class= "content">
 			<%= yield %>

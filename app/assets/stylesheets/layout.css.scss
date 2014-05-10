@@ -86,62 +86,59 @@ header {	/*css codes for the header and title part*/
 	height:auto;
 	padding:0 10%;
 	/*border:2px solid red;*/
+	#description{
+		padding-bottom:5%;
+		padding-left:2%;
+		font-size:18px;
+		height:auto;
+		text-align:left;
+		width:900px;
+		border:2px dashed black;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+
+		-webkit-box-shadow: 1px 2px 1px 1px lightblue;
+		box-shadow: 1px 2px 1px 1px lightblue;
+
+		#title{		/*Css codes for the Title in content page,China,kOREA,jAPAN*/
+		color:#615499;
+		text-align:center;
+		font-size:35px;
+		font-family:'Lato',sans-serif;
+		padding-bottom:30px;
+	}
+}
+#sample_photo{
+	position:absolute;
+	right:18%;
+}	
+
+#info_button{
+	height:30px;
+	border:1px solid green;
+}
+
+			ul{
+				line-style-type:none;
+				text-align:center;
+				ine-height:30px;
+				padding-top:15px;
 	
-	
-			#description{
-						padding-bottom:5%;
-						padding-left:2%;
-						font-size:18px;
-						height:auto;
-						text-align:left;
-						width:900px;
-						border:2px dashed black;
-						font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-						
-							-webkit-box-shadow: 1px 2px 1px 1px lightblue;
-							box-shadow: 1px 2px 1px 1px lightblue;
-						
-							#title{		/*Css codes for the Title in content page,China,kOREA,jAPAN*/
-								color:#615499;
-								text-align:center;
-								font-size:35px;
-								font-family:'Lato',sans-serif;
-								padding-bottom:30px;
-						}
-						}
-						#sample_photo{
-							position:absolute;
-							right:18%;
-												}	
-												#info_button{
-													height:30px;
-													border:1px solid green;
-														}
-			
-														ul{
-														line-style-type:none;
-														text-align:center;
-														line-height:30px;
-														padding-top:15px;
-														
-				
-														li{
-														position:relative;
-														display:inline-block;
-														border:1px dashed #000;
-														border-radius: 20px;
-														padding:0 150px;
-														
-														-webkit-box-shadow: undefinedpx undefinedpx undefinedpx undefinedpx rgba(0,0,0,0.3);
-														box-shadow: undefinedpx undefinedpx undefinedpx undefinedpx rgba(0,0,0,0.3);
-														
-															}	
-															li:hover{
-																cursor:pointer;
-																text-shadow:2px 2px 2px silver;
-															}
-														}
-														}
+				li{
+					position:relative;
+					display:inline-block;
+					border:1px dashed #000;
+					border-radius: 20px;
+					padding:0 150px;
+		
+					-webkit-box-shadow: undefinedpx undefinedpx undefinedpx undefinedpx rgba(0,0,0,0.3);
+					box-shadow: undefinedpx undefinedpx undefinedpx undefinedpx rgba(0,0,0,0.3);
+				}	
+				li:hover{
+				cursor:pointer;
+				text-shadow:2px 2px 2px silver;
+			}
+		}
+	}
 }
 
 #booking{	/*css codes for the booking button*/
