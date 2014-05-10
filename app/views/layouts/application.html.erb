@@ -2,8 +2,16 @@
 <html>
 	<head>
   		<title>TravelleX | <%= @title %></title>
+
+<!-- start test map -->
+			<link rel="stylesheet" href="jquery-jvectormap-1.0.css" type="text/css" media="screen"/>
+			  <script src="jquery.js"></script>
+			  <script src="jquery-jvectormap-1.0.min.js"></script>
+			  <script src="jquery-jvectormap-world-mill-en.js"></script>
+<!-- end test map -->
+
   		<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  	<link href='http://fonts.googleapis.com/css?family=Raleway:100,300' rel='stylesheet' type='text/css'>
   		<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   		<%= csrf_meta_tags %>
 	</head>
@@ -33,13 +41,14 @@
 				</ul>
 			</nav>
 		</header>
-			<div id="booking"><a href="www.airasia.com"><p><strong>BOOK NOW !!!</strong></p><a></div>
+			<div id="booking"><a href="http://www.airasia.com"><p><strong>BOOK NOW !!!</strong></p><a></div>
+			<div id="pop_up"><p>LET'S HAVE A FLIGHT<p></div>
 	 <div class= "main">
 		<div class= "content">
 			<%= yield %>
 			</div>
 		</div>
-		
+			
 		
 	
 	<div class= "footer">
