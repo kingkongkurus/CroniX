@@ -367,7 +367,16 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
 		
 }
  /*CSS codes commented*/
-/* .description input { visibility: hidden }
+.description{
+	position:absolute;
+	top:0;
+	left:0;
+	width:260px;
+	font-family:'Yanone Kaffeesatz';
+	z-index:1000;
+}
+
+ .description input { visibility: hidden }
  
 .description label {
     font-family: 'WebSymbolsRegular';
@@ -389,7 +398,7 @@ input[type=radio]#button-5:checked~.arrows#arrow-4 { left: -73px }
     transition: opacity .2s;
     z-index: 5;
     color: rgb(20,20,20);
-}*/ 
+}
  
 #slideshow-inner>ul>li:hover .description label { opacity: 1 }
  
